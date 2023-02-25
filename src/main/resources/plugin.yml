@@ -1,0 +1,4 @@
+name: SimplePlugin
+version: '${project.version}'
+main: no.host.simpleplugin.SimplePlugin
+api-version: 1.19
