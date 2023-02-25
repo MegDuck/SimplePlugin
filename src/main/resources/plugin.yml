@@ -2,3 +2,34 @@ name: SimplePlugin
 version: '${project.version}'
 main: no.host.simpleplugin.SimplePlugin
 api-version: 1.19
+
+
+permissions:
+  simple.breakblock:
+    default: false
+    description: Allows you to break blocks in the world
+
+commands:
+  fly:
+    usage: /fly
+    permission: op
+
+  setwarp:
+    usage: /setwarp
+    permission: op
+
+  warp:
+    usage: /warp
+    permission: op
+
+  creative:
+    usage: /creative
+    permission: op
+
+  survival:
+    usage: /survival
+    permission: op
+
+  spectator:
+    usage: /spectator
+    permission: op
